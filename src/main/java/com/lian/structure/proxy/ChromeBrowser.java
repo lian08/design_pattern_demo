@@ -2,7 +2,7 @@ package com.lian.structure.proxy;
 
 public class ChromeBrowser implements Browser {
 
-//    @Override
+    @Override
     public void visitInternet() {
         System.out.println("visit YouTube");
     }
